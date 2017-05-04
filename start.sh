@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 PGUSER="${PGUSER:-reviewboard}"
 PGPASSWORD="${PGPASSWORD:-reviewboard}"
 PGDB="${PGDB:-reviewboard}"
